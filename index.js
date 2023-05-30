@@ -1,14 +1,21 @@
 //Log in
 function Log_in() {
-    console.log("hi")
+    //console.log("hi")
     window.location.assign("Loginpage.html")
   }
 //main page
 function main(){
-    console.log('hey')
+    //console.log('hey')
     window.location.assign("mainpage.html")
 }
-
+//Sign in
+function Sign_up(){
+  window.location.assign("Signuppage.html")
+}
+//Horror books
+function horror(){
+  window.location.assign("Horrorbooks.html")
+}
 function openCity(cityName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
