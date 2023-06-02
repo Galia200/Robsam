@@ -16,6 +16,31 @@ function Sign_up(){
 function horror(){
   window.location.assign("Horrorbooks.html")
 }
+//Funny movies
+function humor(){
+  window.location.assign("funnymovies.html")
+}
+//Science fiction
+function sciencefiction(){
+  window.location.assign("sciencefictionseries.html")}
+//show and hide the infomation to flash
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+//comments
+function displayValue() {
+  // Get the value of the input field
+  var inputValue = document.getElementById("inputField").value;
+  
+  // Display the value in the output
+  document.getElementById("output").innerHTML =  inputValue;
+}
+//heder
 function openCity(cityName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -32,3 +57,4 @@ function openCity(cityName,elmnt,color) {
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+//rate
