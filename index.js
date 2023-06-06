@@ -39,6 +39,7 @@ function displayValue() {
   
   // Display the value in the output
   document.getElementById("output").innerHTML =  inputValue;
+  
 }
 //heder
 function openCity(cityName,elmnt,color) {
