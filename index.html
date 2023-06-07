@@ -15,17 +15,100 @@
 <body>
    <div id="main">
         <h1>Welcome to Robsam</h1>
+        <h3>Why did I call the website Rosbam?<br> Because Rosbam is an acronym for reviews of series, books and movies</h3>
         <!-- About us -->
-        <h2>We are here to provide you with an enjoyable viewing/reading experience.<br> I assume that you have probably heard of series and movie review sites, but we also have book reviews, brain teasers and a database that may interest you in a new book or an interesting series.<br>
-        So come on, what are you waiting for, register and if you have already registered, click the log in button to get to the home screen.</h2>
+        <h2>Watch the video</h2>
         <div style="position:relative;width:fit-content;height:fit-content;">
             <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/7t32WqCQoBe?utm_source=embed&utm_medium=embed&utm_campaign=watch">
                 <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
             </a>
             <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/7t32WqCQoBe/embed" width="640" height="360"></iframe>
         </div>
+       </div>
         <button class="button" onclick="Log_in()">To log in</button>
         <button class="button"onclick="Sign_up()">To sign up</button>
     </div>
+    <style>
+
+
+        .tablink {
+          background-color: #555;
+          color: white;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          font-size: 17px;
+          width: 25%;
+        }
+        
+        .tablink:hover {
+          background-color: #777;
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          color: white;
+          display: none;
+          padding: 50px;
+          text-align: center;
+        }
+        #hedear{
+            width: 30%;
+            position: absolute;
+            top: 17%;
+            left: 50%;
+        }
+        #Books {background-color:#c76b6b;}
+        #Movies {background-color:#5ed98f;}
+        #Series {background-color:#5e8dd9;}
+        #Mind_Games {background-color:#edb458;}
+        </style>
+          <div id="hedear">
+            <h2>The website</h2>
+            <div id="Books" class="tabcontent">
+              <h1>Books</h1>
+              <p>Error You probably didn't log in or create a user and therefore you won't be able to use the site.</p>
+            </div>
+        
+            <div id="Movies" class="tabcontent">
+              <h1>Movies</h1>
+              <p>Error You probably didn't log in or create a user and therefore you won't be able to use the site.</p> 
+            </div>
+        
+            <div id="Series" class="tabcontent">
+              <h1>Series</h1>
+              <p>Error You probably didn't log in or create a user and therefore you won't be able to use the site.</p>
+            </div>
+        
+            <div id="Mind_Games" class="tabcontent">
+              <h1>Mind Games</h1>
+              <p>Error You probably didn't log in or create a user and therefore you won't be able to use the site.</p>
+            </div>
+        
+            <button class="tablink" onclick="openCity('Books', this, 'red')" id="defaultOpen">Books</button>
+            <button class="tablink" onclick="openCity('Movies', this, 'green')">Movies</button>
+            <button class="tablink" onclick="openCity('Series', this, 'blue')">Series</button>
+            <button class="tablink" onclick="openCity('Mind_Games', this, 'orange')">Mind Games</button></div>
+            <script>
+                function openCity(cityName,elmnt,color) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablink");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                  }
+                  document.getElementById(cityName).style.display = "block";
+                  elmnt.style.backgroundColor = color;
+                
+                }
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+                </script>
+                   
 </body>
 </html>
