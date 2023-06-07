@@ -1,6 +1,7 @@
 body{
     font-family: 'Goudy Bookletter 1911', serif;
     background-color: #47abae;
+    font-size: x-large;
     
 }
 #frame{
@@ -39,7 +40,7 @@ body{
     /*text-decoration: none;
     display: inline-block;*/
     position: absolute;
-    top: 72%;
+    top: 90%;
     left: 41%;
     font-size: 16px;
     border-radius: 20px

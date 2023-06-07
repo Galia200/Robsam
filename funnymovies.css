@@ -1,16 +1,35 @@
 
 body{
     font-family: 'Goudy Bookletter 1911', serif;
-    background-image: linear-gradient(90deg, #b64506 0%, #efc20f 50%, #ff4787 100%);
+    background-image: linear-gradient(90deg, #5ca366 0%,#ef5320, #f0ff47 100%);
     margin: 0 auto; /* Center website */
     max-width: 800px; /* Max width */
     padding: 20px;
     font-size: larger;
-    
+    color: rgb(0, 0, 0);
+   
+}
+p{
+    color: #000000;
+}
+/*.onlinebook{
+    background-image: linear-gradient(90deg, #757575 0%, #bcbcbc 50%, #454545 100%); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px
+}*/
+.Img{
+    width: 50%;
+    height: 50%;
 }
 #rating{
   position: absolute;
-  top: 70%;
+  top:20%;
   left: 65%;
   width: 40%;
 }
@@ -47,11 +66,12 @@ body{
   height: 40px;
   border-radius: 20px
 }
+
 #comment {
 
-  background-image: linear-gradient(90deg, #0c0c0b 0%,#ef5320, #ff4787 100%);
+    background-image: linear-gradient(90deg, #ff00ff 0%, #ff0080 50%, #ff0000 100%);
     border: none;
-    color: white;
+   
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -60,11 +80,16 @@ body{
     border-radius: 20px
     
   }
+.trailer{
+    position:absolute;
+    top:60%;
+    left:70%;
+}
   #comments {
 
     background-color: #fff; 
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
