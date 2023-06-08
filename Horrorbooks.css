@@ -23,14 +23,39 @@ p{
     font-size: 16px;
     border-radius: 20px
 }
+.red-star {
+  color: orange;
+
+}
+.button {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  background-color: lightpink;
+  
+}
+
+.button:hover {
+  background-color: rgb(189, 95, 167);
+  /*color: rgb(0, 0, 0);*/
+  
+}
 .Img{
     width: 50%;
     height: 50%;
 }
 #rating{
+  font-family: 'Goudy Bookletter 1911', serif;
   position: absolute;
   top:30%;
-  left: 65%;
+  left: 55%;
   width: 40%;
 }
 #part2{

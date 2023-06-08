@@ -11,7 +11,7 @@ body{
 #rating{
   position: absolute;
   top: 70%;
-  left: 65%;
+  left: 60%;
   width: 40%;
 }
 #part2{
@@ -116,7 +116,9 @@ body{
   box-sizing: border-box;
 }
 
-
+body {
+  font-family: 'Goudy Bookletter 1911', serif;;
+}
 
 .heading {
   font-size: 25px;
@@ -145,6 +147,9 @@ body{
 }
 
 /* Place text to the right */
+.right {
+  text-align: right;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -157,12 +162,12 @@ body{
 .bar-container {
   width: 100%;
   background-color: #f1f1f1;
-  /*text-align: center;*/
+  text-align: center;
   color: white;
 }
 
 /* Individual bars */
-.bar-5 {width: 70%; height: 18px; background-color: #04AA6D;}
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
 .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
 .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
 .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
@@ -176,6 +181,30 @@ body{
   .right {
     display: none;
   }
+}
+.red-star {
+  color: orange;
+
+}
+.button {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  background-color: lightpink;
+  
+}
+
+.button:hover {
+  background-color: rgb(189, 95, 167);
+  /*color: rgb(0, 0, 0);*/
+  
 }
 
 #bodyofc {
