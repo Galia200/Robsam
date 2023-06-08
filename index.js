@@ -1,7 +1,7 @@
 //Log in
 function Log_in() {
     //console.log("hi")
-    window.location.assign("Loginpage.html")
+    window.location.assign("Robsam/Loginpage.html")
   }
 //main page
 function main(){
@@ -10,7 +10,7 @@ function main(){
 }
 //Sign in
 function Sign_up(){
-  window.location.assign("Signuppage.html")
+  window.location.assign("Robsam/Signuppage.html")
 }
 //Horror books
 function horror(){
