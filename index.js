@@ -23,7 +23,7 @@ function humor(){
 //Science fiction
 function sciencefiction(){
   window.location.assign("sciencefictionseries.html")}
-//show and hide the infomation to flash
+//show and hide the infomation 
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
